@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style:none;
+    color: white;
+}
+.body{
+    background-color: black;
+}
+h1{
+    font-size: 50px;
+}
+.headerNavegacion{
+    border:solid yellow;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.navegacionInicio{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.listasHeader{
+    margin: 0px 40px 0px 40px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.barraBusqueda{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.buscador{
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 80rem;
+    height: 45px;
+    color: black;
+    border-color:chartreuse;
+    border-style:solid;
+    border-width: 5px;
+}

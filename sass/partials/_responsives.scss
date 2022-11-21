@@ -1,0 +1,48 @@
+// Responsive de imagenes de juegos
+
+@media(min-width: 360px){
+    .juego{
+        margin: 10px 0px 20px 0px;
+        width: 1300px;
+    }
+}
+@media(min-width: 1140px){
+    .juego{
+        width: 600px;
+        margin: 30px;
+    }
+}
+
+// Responsive footer
+
+@media(min-width: 360px){
+    footer{
+        background-color:rgb(124, 0, 0);
+        height: 52rem;
+    }
+}
+@media(min-width: 399px){
+    footer{
+        background-color:rgb(124, 0, 0);
+        height: 43rem;
+    }
+}
+@media(min-width: 620px){
+    footer{
+        background-color:rgb(124, 0, 0);
+        height: 29rem;
+    }
+}
+@media(min-width: 907px){
+    footer{
+        background-color:rgb(124, 0, 0);
+        height: 26rem;
+    }
+}
+@media(min-width: 1140px){
+    footer{
+        padding: 20px;
+        margin: 50px 0px 50px 0px;
+        height: 300px;
+    }
+}
